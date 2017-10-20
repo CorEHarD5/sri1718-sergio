@@ -2,13 +2,13 @@
 
 > Trabajo realizado por Sergio de la Barrera García y Adán Pérez García
 
-##1. Preparación de las máquinas
+## 1. Preparación de las máquinas
 
 En esta práctica utilizaremos dos máquinas Windows 2012 Server (Utilizamos una que ya tenemos y creamos otra nueva) y una máquina Windows 10.
 
 >Cabe destacar que todas las máquinas están en red interna.
 
-##2.1 Configurar Máquina DHCP1
+## 2.1 Configurar Máquina DHCP1
 
  Primero vamos a la máquina Windows 2012 server que ya teníamos creada puesto que cuenta con *Active Directory*,*DHCP* y *DNS* los cuales son servicios necesarios para esta actividad.
 
@@ -37,7 +37,7 @@ En esta práctica utilizaremos dos máquinas Windows 2012 Server (Utilizamos una
 
 ![imagen](./images/captura7.PNG)
 
-##2.2 Configurar Máquina DHCP2
+## 2.2 Configurar Máquina DHCP2
 
 Esta máquina la creamos desde cero para evitar problemas con nombres, dominios,etc...
 
@@ -61,7 +61,7 @@ Después de haber reiniciado vamos a *Agregar roles y características*, selecci
 
 Una vez instalado ya solo queda configurar el Failover.
 
-##3. Configurar DHCP Failover
+## 3. Configurar DHCP Failover
 
 Ahora nos situamos en la máquina DHCP1. Exactamente en *Herramientas -> DHCP*. Clickamos con botón derecho sobre el ámbito que creamos anteriormente y seleccionamos *Configurar conmutación por error...*.
 
@@ -77,7 +77,7 @@ Finalmente ya podemos ver que tenemos el ámbito del DHCP1 en el DHCP2.
 
 ![imagen](./images/captura17.PNG)
 
-##4. Comprobaciones
+## 4. Comprobaciones
 
 Ya solo queda comprobar el Failover en el cliente.Para ello utilizaremos la máquina Windows 10.La cual esta en la misma red interna que las demás.
 
