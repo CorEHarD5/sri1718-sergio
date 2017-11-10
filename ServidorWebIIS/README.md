@@ -112,7 +112,8 @@ En esta práctica utilizaremos una máquina Windows 2012 Server y otra máquina 
 
  * Además le ponemos un alias *www* para que se pueda acceder como `www.principalxd.com`.
  > obviamente el alias es sobre nuestra nueva zona
-   ![imagen](./images/captura25.PNG)
+
+![imagen](./images/captura25.PNG)
 
 ![imagen](./images/captura26.PNG)
 
