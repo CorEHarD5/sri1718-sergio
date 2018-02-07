@@ -105,53 +105,53 @@
 
 * Instalar Servicio SSH en el servidor Linux.
 
-![imagen](./img/linux/captura1.PNG)
+![imagen](./img/Linux/captura1.PNG)
 * Crear dos usuarios en el sistema, con diferentes privilegios y niveles de acceso al filesystem.
 
-![imagen](./img/linux/captura2.PNG)
+![imagen](./img/Linux/captura2.PNG)
 
-![imagen](./img/linux/captura3.PNG)
+![imagen](./img/Linux/captura3.PNG)
 * Comprobar, desde una máquina cliente, acceso de los usuarios mediante ssh.
 
-![imagen](./img/linux/captura4.PNG)
+![imagen](./img/Linux/captura4.PNG)
 
-![imagen](./img/linux/captura5.PNG)
+![imagen](./img/Linux/captura5.PNG)
 
 * Tratar de ejecutar una aplicación gráfica del servidor de forma remota, desde el cliente, mediante ssh.
 > Daba un error y comprobastes que estaba todo bien solo que no ejecutaba
 
-![imagen](./img/linux/captura6.PNG)
+![imagen](./img/Linux/captura6.PNG)
 * Acceder, también desde el cliente, mediante sftp (ftp seguro, incluido en el paquete ssh) al sistema de ficheros del servidor y probar acceso, carga y descarga de archivos con ambos usuarios.
 
-![imagen](./img/linux/captura7.PNG)
+![imagen](./img/Linux/captura7.PNG)
 * Realizar varias copias de archivos hacia / desde el servidor mediante scp, utilizando también los dos usuarios creados anteriormente.
 
-![imagen](./img/linux/captura8.PNG)
+![imagen](./img/Linux/captura8.PNG)
 
-![imagen](./img/linux/captura9.PNG)
+![imagen](./img/Linux/captura9.PNG)
 
-![imagen](./img/linux/captura10.PNG)
+![imagen](./img/Linux/captura10.PNG)
 
-![imagen](./img/linux/captura11.PNG)
+![imagen](./img/Linux/captura11.PNG)
 
-![imagen](./img/linux/captura12.PNG)
+![imagen](./img/Linux/captura12.PNG)
 * Instalar el paquete proftpd.
 
-![imagen](./img/linux/captura13.PNG)
+![imagen](./img/Linux/captura13.PNG)
 
-![imagen](./img/linux/captura14.PNG)
+![imagen](./img/Linux/captura14.PNG)
 * Investigar y editar el fichero de configuración /etc/proftpd/proftpd.conf buscando información en Internet.
 
-![imagen](./img/linux/captura15.PNG)
+![imagen](./img/Linux/captura15.PNG)
 
-![imagen](./img/linux/captura16.PNG)
+![imagen](./img/Linux/captura16.PNG)
 * Tratar de conectar al servicio ftp gestionado por proftpd tanto desde el servidor como desde un cliente.
 
-![imagen](./img/linux/captura17.PNG)
+![imagen](./img/Linux/captura17.PNG)
 * Desde la máquina cliente, probar el acceso al ftp mediante los usuarios creados y realizando diferentes operaciones de listado, subida y descarga de archivos.
 
-![imagen](./img/linux/captura19.PNG)
+![imagen](./img/Linux/captura19.PNG)
 
-![imagen](./img/linux/captura20.PNG)
+![imagen](./img/Linux/captura20.PNG)
 
-![imagen](./img/linux/captura21.PNG)
+![imagen](./img/Linux/captura21.PNG)
