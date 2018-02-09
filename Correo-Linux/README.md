@@ -72,9 +72,10 @@ recepción de estos correos en el servidor examinando la carpeta `/var/mail`.
 * Copiar lineas no comentadas `/etc/squirrelmail/apache.conf` en un nuevo fichero `.conf` de
 `/etc/apache2/sites-available`, habilitar sitio y reiniciar apache
 
+![imagen](./img/000154.png)
+
 ![imagen](./img/000153.png)
 
-![imagen](./img/000154.png)
 * Acceder vía HTTP en `/localhost/squirrelmail`
 
 ![imagen](./img/000165.png)
@@ -90,7 +91,8 @@ gestor de correo web SquirrelMail
 
 ![imagen](./img/000167.png)
 
-![imagen](./img/000168.png)
+![imagen](./img/captura1.png)
+
 * Comprobar que los mensajes enviados desde ambas cuentas se siguen encontrando en
 los respectivos buzones de los usuarios en `/var/mail`
 
